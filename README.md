@@ -15,13 +15,13 @@ git clone [https://github.com/yourusername/virtual-arduino-sim.git](https://gith
 cd virtual-arduino-sim
 
 # Create a virtual environment
-python -m venv ardvenv
+python -m venv venv
 
 # Activate the environment
 # On Linux/macOS:
-source ardvenv/bin/activate
+source venv/bin/activate
 # On Windows:
-.\ardvenv\Scripts\activate
+.\venv\Scripts\activate
 
 # Install dependencies
 pip install pyserial
