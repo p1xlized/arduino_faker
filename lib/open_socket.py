@@ -3,6 +3,12 @@ import platform
 import re
 import subprocess
 
+"""
+Open a socket pair using socat.
+
+:return: A tuple containing the output of socat and the process object.
+"""
+
 
 def open_socket():
     current_os = platform.system()
@@ -36,6 +42,14 @@ def open_socket():
                 "ERROR: socat not found. Install via 'brew install socat' (Mac) or 'sudo apt install socat' (Linux)",
                 None,
             )
+
+
+"""
+Get the port names from the socat output.
+
+:param terminal_output: The output of socat.
+:return: A list of port names.
+"""
 
 
 def get_ports(terminal_output):
