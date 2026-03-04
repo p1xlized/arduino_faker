@@ -11,7 +11,7 @@ Open your terminal (Bash on Linux/Mac, or PowerShell on Windows) and run:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/virtual-arduino-sim.git](https://github.com/yourusername/virtual-arduino-sim.git)
+git clone https://github.com/p1xlized/arduino_faker.git
 cd virtual-arduino-sim
 
 # Create a virtual environment
